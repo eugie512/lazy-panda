@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/webview" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="30dip"
+        android:paddingLeft="60dip"
+        android:paddingRight="60dip">
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/home_label"
+            android:background="@drawable/button_grey"
+            style="@style/ButtonText" />
+    </LinearLayout>
+</LinearLayout>

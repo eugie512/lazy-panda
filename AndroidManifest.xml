@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="apps.sports.lazypanda"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk
+        android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/lazy_panda"
+        android:label="@string/app_name">
+        <activity
+            android:name=".LazyPanda"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LazyBase"
+            android:label="@string/lazy_label"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".Alerts"></activity>
+        <activity
+            android:name=".Matchup"></activity>
+        <activity
+            android:name=".YahooLogin"
+            android:label="@string/login_label">
+        </activity>
+        <activity
+            android:name=".YahooQuery"></activity>
+        <activity
+            android:name=".MyTeam"></activity>
+        <activity
+            android:name=".MyLeague"></activity>
+        <activity
+            android:name=".TopProspects"
+            android:label="@string/top_players_label"></activity>
+        <activity
+            android:name=".WatchList"
+            android:label="@string/watch_list_label"></activity>
+        <activity
+            android:name=".FantasyNews"
+            android:label="@string/news_label"></activity>
+        <activity
+            android:name=".About"
+            android:label="@string/about_label"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity
+            android:name=".PlayerData"
+            android:label="@string/data_label"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+    </application>
+
+    <uses-permission
+        android:name="android.permission.INTERNET">
+    </uses-permission>
+</manifest>

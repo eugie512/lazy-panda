@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="app_name">Lazy Panda</string>
+    <string
+        name="login_label">Login</string>
+    <string
+        name="logout_label">Logout</string>
+    <string
+        name="top_players_label">Top 20
+    </string>
+    <string
+        name="trenders_label">Trenders
+    </string>
+    <string
+        name="watch_list_label">Watch List
+    </string>
+    <string
+        name="news_label">Fantasy News
+    </string>
+    <string
+        name="lazy_label">Start App</string>
+    <string
+        name="options_label">Options</string>
+    <string
+        name="options_shortcut">o</string>
+    <string
+        name="home_label">Success - Click Here</string>
+    <string
+        name="about_label">About App</string>
+    <string
+        name="about_shortcut">a</string>
+    <string
+        name="about_text">
+        This app allows you to analyze Yahoo Fantasy Football players.
+        It highlights potential sleepers and also provides
+        recommendations to allow you to optimize your lineup. Requires:
+        A Yahoo account.\n\n
+        <b>Credits:</b>
+        \n
+        jjoe64: graphView library\n
+        Pablo Fernandex: Scribe Java OAuth
+        library\n\n
+        <b>Click to Dismiss</b>
+    </string>
+    <string
+        name="data_label">Player Data</string>
+</resources>
