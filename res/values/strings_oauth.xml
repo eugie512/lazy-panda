@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="api_key">dj0yJmk9bWdjeHZ1WDZoMkpXJmQ9WVdrOWFrMVpiMmh6TlRBbWNHbzlNell5TmpBeE9UWXkmcz1jb25zdW1lcnNlY3JldCZ4PTc4
+    </string>
+    <string
+        name="api_secret">6638b12f2e3c17f68cc6b43d3e2b86e866632b08</string>
+    <string
+        name="callback">oauth://yahoo</string>
+</resources>
